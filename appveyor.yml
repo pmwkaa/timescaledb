@@ -8,9 +8,9 @@ build_script:
 
     # Create directories for tablespaces
 
-    New-Item -ItemType directory -Path "C:\Users\$env:UserName\Documents\tablespace1"
+    New-Item -ItemType directory -Path "C:\Users\$env:UserName\Documents\tablespace1\_default"
 
-    New-Item -ItemType directory -Path "C:\Users\$env:UserName\Documents\tablespace2"
+    New-Item -ItemType directory -Path "C:\Users\$env:UserName\Documents\tablespace2\_default"
 
     New-Item -ItemType directory -Path "C:\Users\$env:UserName\Documents\log"
 
